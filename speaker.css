@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1152029950/photo/shiny-disco-ball-with-lightning-effects-on-stage.jpg?s=612x612&w=0&k=20&c=dQmrWJth9QXi-RFKji0GJuLp_5-pCvopOv7Jn9dRw0Q=); background-repeat: no-repeat;background-size: cover;
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: 20px;
+        position: relative; 
+    }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 20px; 
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    display: block; 
+    padding: 8px; 
+    transition: color 0.3s, background-color 0.3s;
+    cursor: pointer; 
+}
+
+.navbar ul li a:hover {
+    color: #090907; 
+    background-color: rgba(249, 250, 251, 0.957); 
+    border-radius: 4%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #f9f9f9;
+    font-style: italic;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f9f9f9;
+    width: 80%; 
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container .image {
+    width: 50%; 
+    padding-right: 10px;
+}
+
+.container .image img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+     align-items: start;
+
+}
+
+.container .description {
+    width: 50%; 
+    text-align: center;
+    padding: 5px;
+    color: #333;
+    font-size: 16px;
+}
+
+.Chief-Guest h3,
+.staff h3,
+.Guest h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.head1 {
+    color: #f2f4fa;
+    font-style: oblique;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 45px;
+} 
+}

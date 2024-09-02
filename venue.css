@@ -1,0 +1,119 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    background-image: url(https://media.istockphoto.com/id/1152029950/photo/shiny-disco-ball-with-lightning-effects-on-stage.jpg?s=612x612&w=0&k=20&c=dQmrWJth9QXi-RFKji0GJuLp_5-pCvopOv7Jn9dRw0Q=); background-repeat: no-repeat;background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #f6efef;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 8px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #0e0e0a;
+    background-color: rgba(249, 250, 251, 0.957);
+    border-radius: 4%;
+}
+
+.logo {
+    font-style: italic;
+    font-size: 40px;
+    padding: 7px;
+    border-radius: 30px;
+    color: #f3fafa;
+}
+
+/* Section title styling */
+#venue-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fcfefe;
+}
+
+/* Container styling for the venue page */
+.venue-page-container {
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    gap: 30px;
+    width: 800px;
+}
+
+/* Individual venue page styling */
+.venue-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Venue image styling */
+.venue-img img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Venue description styling */
+.venue-description {
+    max-width: 600px;
+}
+
+.venue-description p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .venue-page {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .venue-img,
+    .venue-description {
+        width: 100%;
+    }
+
+    .venue-img img,
+    .venue-description iframe {
+        width: 100%;
+        height: auto;
+    }
+}
